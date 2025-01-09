@@ -40,3 +40,7 @@ jobs:
           publish_branch: output
           # Optionally, you can set a custom commit message
           commit_message: "Update snake animation [skip ci]"
+      - name: Debug values
+        run: |
+          echo "GitHub username: ${{ github.repository_owner }}"
+          echo "Repository: ${{ github.event.repository.name }}"
