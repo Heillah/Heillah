@@ -40,37 +40,34 @@ jobs:
           publish_branch: output
           # Optionally, you can set a custom commit message
           commit_message: "Update snake animation [skip ci]"
-  update-stats:
-      runs-on: ubuntu-latest
+  ##update-stats:
+     ## steps:
+        ## uses: actions/checkout@v3
   
-      steps:
-        - name: Checkout repository
-          uses: actions/checkout@v3
+       ## - name: Create assets folder if it doesn't exist
+         ## run: |
+          ##  mkdir -p assets
   
-        - name: Create assets folder if it doesn't exist
-          run: |
-            mkdir -p assets
-  
-        - name: Fetch GitHub stats
-          env:
-            GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
-          run: |
-            curl -H "Authorization: Bearer $GH_STATS_TOKEN" \
-                 -o assets/stats.svg \
-                 "https://github-readme-stats.vercel.app/api?username=Heillah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show=reviews,prs_merged"
-        - name: Fetch GitHub languages
-          env:
-            GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
-          run: |
-            curl -H "Authorization: Bearer $GH_STATS_TOKEN" \
-                 -o assets/langs.svg \
-                 "https://github-readme-stats.vercel.app/api/top-langs/?username=Heillah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
-        - name: Update README
-          run: |
-            sed -i 's|!\[\](.*stats\.svg)|!\[\](assets/stats\.svg)|' README.md
-            sed -i 's|!\[\](.*langs\.svg)|!\[\](assets/langs\.svg)|' README.md
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md assets/stats.svg assets/langs.svg
-            git commit -m "Update GitHub stats in README" || echo "No changes to commit"
-            git push || echo "Nothing to push"
+       ## - name: Fetch GitHub stats
+        ##  env:
+       ##     GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+      ##    run: |
+        ##    curl -H "Authorization: Bearer $GH_STATS_TOKEN" \
+         ##        -o assets/stats.svg \
+        ##         "https://github-readme-stats.vercel.app/api?username=Heillah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show=reviews,prs_merged"
+       ## - name: Fetch GitHub languages
+      ##    env:
+      ##      GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+    ##      run: |
+      ##      curl -H "Authorization: Bearer $GH_STATS_TOKEN" \
+       ##          -o assets/langs.svg \
+       ##          "https://github-readme-stats.vercel.app/api/top-langs/?username=Heillah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
+     ##   - name: Update README
+      ##    run: |
+        ##    sed -i 's|!\[\](.*stats\.svg)|!\[\](assets/stats\.svg)|' README.md
+       ##     sed -i 's|!\[\](.*langs\.svg)|!\[\](assets/langs\.svg)|' README.md
+      ##      git config user.name "github-actions[bot]"
+        ##    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+       ##     git add README.md assets/stats.svg assets/langs.svg
+       ##     git commit -m "Update GitHub stats in README" || echo "No changes to commit"
+       ##     git push || echo "Nothing to push"
