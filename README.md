@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 <div align="center">
-  <img src="assets/Line_Github_Profile.png" alt="GitHub Profile Banner" height="200" width="50%" />
+  <img src="assets/Line_Github_Profile.png" alt="GitHub Profile Banner" height="250" width="60%" />
 </div>
 
 ###
@@ -105,4 +105,13 @@ Here are some ideas to get you started:
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Heillah&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
+###
+###
+<h3> Contributions:</h3>
+###
+###
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=Heillah&show_icons=true&locale=en" alt="Heillah" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Heillah&" alt="Heillah" /></p>
+<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Heillah&show_icons=true&locale=en&layout=compact" alt="Heillah" /></p>
+<p><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Heillah" alt="Heillah" /></a></p>
 ###
