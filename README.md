@@ -33,15 +33,12 @@ Here are some ideas to get you started:
 
 ###
 
-<img src="https://raw.githubusercontent.com/Heillah/Heillah/output/snake.svg" alt="Snake animation" />
-
-<!--
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Heillah/Heillah/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Heillah/Heillah/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/Heillah/Heillah/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/Heillah/Heillah/output/github-snake.svg" alt="Snake animation" />
 </picture>
--->
+
 
 
 ###
@@ -102,15 +99,20 @@ Here are some ideas to get you started:
 
 ###
 
+![](https://github-readme-stats.vercel.app/api?username=Heillah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show=reviews,prs_merged)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=Heillah&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Heillah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
 <!--![](https://github-readme-stats.vercel.app/api?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Heillah&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&layout=compact&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage) -->
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<!--<a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&card_width=280" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&layout=compact&langs_count=8&card_width=150" />
+  -->
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Heillah&theme=radical&no-frame=false&no-bg=true&margin-w=4)
