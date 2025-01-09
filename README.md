@@ -104,7 +104,7 @@ Here are some ideas to get you started:
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&layout=compact&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage) -->
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&card_width=280" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&layout=compact&langs_count=8&card_width=150" />
