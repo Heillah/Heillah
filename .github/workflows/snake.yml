@@ -44,3 +44,24 @@ jobs:
         run: |
           echo "GitHub username: ${{ github.repository_owner }}"
           echo "Repository: ${{ github.event.repository.name }}"
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch GitHub Stats
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+        run: |
+          curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=Heillah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&token=${GH_STATS_TOKEN}"
+      
+      - name: Update README
+        run: |
+          sed -i 's|![](.*stats.svg)|![](stats.svg)|' README.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update GitHub stats in README"
+          git push
