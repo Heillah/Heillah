@@ -20,7 +20,6 @@ Here are some ideas to get you started:
 </div>
 
 ###
-###
 
 <h1 align="center">Hey there 👋</h1>
 
@@ -96,14 +95,19 @@ Here are some ideas to get you started:
 
 ###
 
-<h3 align="left">🔥   My Stats :</h3>
+<h3 align="left">🔥   My Stats 📊:</h3>
 
 ###
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Heillah&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Heillah&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Heillah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<!--![](https://github-readme-stats.vercel.app/api?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=Heillah&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&layout=compact&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage) -->
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Heillah&theme=transparent&hide_border=false&include_all_commits=true&layout=compact&langs_count=8&card_width=320" />
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Heillah&theme=radical&no-frame=false&no-bg=true&margin-w=4)
@@ -111,8 +115,7 @@ Here are some ideas to get you started:
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
----
-[![](https://visitcount.itsvg.in/api?id=Heillah&icon=0&color=0)](https://visitcount.itsvg.in)
+
 
 
 <!--
