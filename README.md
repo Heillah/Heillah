@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 <div align="center">
-  <img src="assets/Line_Github_Profile.png" alt="GitHub Profile Banner" height="180" width="40%" />
+  <img src="assets/Line_Github_Profile.png" alt="GitHub Profile Banner" height="200" width="50%" />
 </div>
 
 ###
